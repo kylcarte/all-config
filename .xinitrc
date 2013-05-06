@@ -13,6 +13,7 @@ xkbset -a
 #  emacs -nw --daemon
 #fi
 
-/etc/thinkpad/dock.sh
-sleep 5 && feh --bg-max --no-xinerama $HOME/.bg
-$HOME/bin/vpn-up &
+if [ -f .xinitrc_local ]; then
+    . .xinitrc_local
+fi
+
