@@ -1,0 +1,18 @@
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    stfu = status -uno
+    br = branch
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    ps = push
+    pl = pull
+    df = diff
+
+    pso = push origin
+    cia = commit -a
+
+    type = cat-file -t
+    dump = cat-file -p
+[user]
+	email = kcarter@galois.com

@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/kcarter/replicatorg-0040/skein_engines/skeinforge-50/skeinforge_application/prefs/Replicator slicing defaults/profiles/extrusion/ABS'
+let g:netrw_dirhist_2='/home/kcarter/.ghc'
+let g:netrw_dirhist_3='/home/kcarter/work/Verifier/.git/branches'
+let g:netrw_dirhist_4='/home/kcarter/.ghc'
+let g:netrw_dirhist_5='/home/kcarter/work/ghc/compiler/basicTypes'
