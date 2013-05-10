@@ -17,7 +17,7 @@ if [ "$TERM" == "xterm" ]; then
 else 
     PROMPT="\342\226\210\342\226\210"
 fi
-export PS1="\n\$(if [[ \$? == 0 ]]; then echo \"\[\033[0;34m\]\"; else echo \"\[\033[0;31m\]\"; fi)$PROMPT [ \w ]\n\[\033[0m\]$PROMPT "
+export PS1="\n\$(if [[ \$? == 0 ]]; then echo \"\[\033[0;34m\]\"; else echo \"\[\033[0;31m\]\"; fi)$PROMPT `hostname` [ \w ]\n\[\033[0m\]$PROMPT "
 
 # User specific aliases and functions
 alias sl='ls'
